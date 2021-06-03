@@ -1,0 +1,12 @@
+/* you can add to or change this. */
+h1 {
+  text-align: center;
+}
+
+#game div {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: inline-block;
+}
