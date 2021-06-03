@@ -1,6 +1,7 @@
 # color_memory_game
 
-Memory Game»
+Memory Game
+
 For this assignment, you’ll be building a memory game in the browser using HTML, CSS, and JavaScript. Your goal is to build a card-based memory game.
 
 Players will be shown a collection of cards, face down, and can click on a card to reveal what’s underneath.
