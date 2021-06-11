@@ -12,7 +12,7 @@ If not, the cards should remain displayed to the player for one second, and then
 
 The goal of the game is to match up all the pairs.
 
-Download the starter code here
+======================================================
 
 Part One: Reading the code
 
@@ -22,12 +22,18 @@ We have an array of colors which we shuffle and then loop over to create 10 <div
 We then append the <div> elements to the DOM and add an event listener for a “click” for each of the elements.
 Make sure to read through the code before continuing on!
 
+  
+======================================================
+  
 Part Two: Implementing clicks and matches
 
 Clicking a card should change the background color to be the color of the class it has.
 Users should only be able to change at most two cards at a time.
 Clicking on two matching cards should be a “match” — those cards should stay face up.
 When clicking two cards that are not a match, they should stay turned over for at least 1 second before they hide the color again. You should make sure to use a setTimeout so that you can execute code after one second.
+  
+======================================================
+  
 Part Three: Gotchas
 
 Make sure this works only if you click on two different cards — clicking the same card twice shouldn’t count as a match!)
